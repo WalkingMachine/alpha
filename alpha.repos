@@ -1,0 +1,9 @@
+repositories:
+  WalkingMachine/alpha_tts:
+    type: git
+    url: https://github.com/WalkingMachine/alpha_tts.git
+    version: master
+  WalkingMachine/alpha_interfaces:
+    type: git
+    url: https://github.com/WalkingMachine/alpha_interfaces.git
+    version: master
