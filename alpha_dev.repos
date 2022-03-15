@@ -1,4 +1,12 @@
 repositories:
+  alpha:
+    type: git
+    url: https://github.com/WalkingMachine/alpha.git
+    version: master
+  alpha_utils:
+    type: git
+    url: https://github.com/WalkingMachine/alpha_utils.git
+    version: develop
   alpha_tts:
     type: git
     url: https://github.com/WalkingMachine/alpha_tts.git
