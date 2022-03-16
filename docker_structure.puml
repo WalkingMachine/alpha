@@ -1,0 +1,23 @@
+@startuml Docker structure
+
+title "Docker Image Dependencies"
+
+rectangle "orsf/ros:foxy-desktop" as orsf
+rectangle "etswalkingmachine/alpha_base" as base
+rectangle "etswalkingmachine/alpha_utils" as utils
+rectangle "etswalkingmachine/alpha_interfaces" as interfaces
+rectangle "etswalkingmachine/alpha_tts" as tts 
+rectangle "etswalkingmachine/alpha_stt" as stt
+rectangle "etswalkingmachine/alpha_nlu" as nlu
+
+
+orsf --> base
+base --> utils
+utils --> interfaces
+interfaces --> tts
+interfaces --> stt
+interfaces --> nlu
+
+
+
+@enduml
