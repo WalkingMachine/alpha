@@ -1,4 +1,4 @@
-# Project Purple: Alpha
+# Project Purple: Epsilon
 
 ## Instructions to get all repos
 ```bash
